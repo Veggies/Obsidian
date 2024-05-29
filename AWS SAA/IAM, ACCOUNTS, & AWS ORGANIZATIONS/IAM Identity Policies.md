@@ -7,7 +7,7 @@ Statements
 		- The action is what is either being allowed or denied. IE access to resources.
 	- Effect is either Allow, or Deny.
 		- Denies will always trump Allows
-		- Implicit deny takes effect if there is no explicit allow. Basically, if it isn't allowed, then it's automatically denied.
+		- Implicit deny takes effect if there is no explicit allow. Basically, if it isn't allowed, then it's automatically denied. This goes across all policies applied to the identity.
 
 Policy types:
 	- Inline policy is when a policy is attached to an individual identity
