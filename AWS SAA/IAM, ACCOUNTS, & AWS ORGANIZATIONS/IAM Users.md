@@ -1,4 +1,4 @@
-- IAM Users are an Identity
+- IAM Users are an Identity, a SINGLE, identity
 	- Can be a Human, an Application, or a Service Account
 - Principal is an entity (Human, Application, etc.) trying to access an AWS account.
 	- For a principal to access anything, it must be authorized AND authenticated.

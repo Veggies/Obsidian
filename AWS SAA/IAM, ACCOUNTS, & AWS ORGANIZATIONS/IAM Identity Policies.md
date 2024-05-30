@@ -1,5 +1,6 @@
 Grants or Denies access to AWS Products/Features to any Identity that uses that policy
 	An identity policy is basically just a set of permissions.
+	Policies from groups, or inline, or managed, can all be assigned and work together. IE, Sally can be a group member of Dev and Ops, have their own inline policy, and be attached to a manage policy. All the policies will operate together under the principle of Deny Allow Deny.
 
 Statements
 	- Statements start with an SID, a statement id. It just gives a description of what the statement is doing.
