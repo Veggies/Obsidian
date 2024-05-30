@@ -1,0 +1,10 @@
+- IAM Users are an Identity
+	- Can be a Human, an Application, or a Service Account
+- Principal is an entity (Human, Application, etc.) trying to access an AWS account.
+	- For a principal to access anything, it must be authorized AND authenticated.
+		- Authentication is when the principal makes a claim of who it is, and then proves it is who it claims to be.
+			- This can be done with U&P (User/Password) or Access Keys
+			- Once this principal is authenticated, it is considered an Authenticated Identity
+		- Authorization is when an identity policy is checked against the Identity's attempted action, and is then allowed or denied.
+- **5,000 IAM Users per account**
+- IAM User can only be a member of 10 groups
