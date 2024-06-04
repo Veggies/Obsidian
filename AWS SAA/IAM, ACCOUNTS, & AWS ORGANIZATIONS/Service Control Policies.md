@@ -1,0 +1,9 @@
+- Can be used to restrict AWS accounts
+- JSON Document
+- Can be attached to orgs as a whole by root container or to OU, or even to individual AWS accounts
+- SCPs trickle down, meaning if attached to an OU with OUs and Account, all OUs and Account within that OU and itself are effected by the SCP
+- Even if a management account has SCPs attached to itself in anyway, the management account is **never** effected
+- Limit what the account can do including the account root user
+- SCPs do not **grant** any permissions, they just limit what permissions **can** be granted
+- Can either create an allow list, or a deny list
+	 - Full AWS Access = Deny List, all permissions are allowed to be assigned
