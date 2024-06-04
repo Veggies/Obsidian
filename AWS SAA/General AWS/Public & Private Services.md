@@ -1,0 +1,8 @@
+- Public Internet Zone 
+	- Can be accessed from anywhere with an internet connection
+- Private Zone 
+	- Can only be accessed by endpoints in the VPC, or connected to that VPC
+		- VPCs are isolated, cannot communicate with eachother unless allowed 
+		- Nothing from the internet can reach these VPCs unless configured
+- Public Zone
+	- Connected to the public internet
