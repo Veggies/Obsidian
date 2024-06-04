@@ -1,0 +1,22 @@
+- Cloud Trail Event
+	- Record of activity in an AWS account
+		- Can be an action taken by a user, role or service
+	- 90 days stored by *default* in event history, no cost
+	- Three different even types, management, data, and inside events
+		- Management events
+			- Provide information about management operations that are performed on resources in your AWS account
+			- Also known as Control Plain Operations
+				- Examples include creating an EC2 service, terminating an EC2 instance, etc.
+		- Data events
+			- Contain information about operations performed in or on a resource
+				- Ex. Objects being uploaded, or accessed in an S3 bucket
+	- By default, only Management events are logged
+- To customize a service, you must create a trail
+	- A trail can store logs in an S3 bucket indefinitely
+		- Stored as JSON log files
+	- CloudTrail can send logs to CloudWatch logs
+	- Organizational trails can be created from the organization management account to gather logs from the entire organization
+- A trail logs events for the AWS REGION it is created in. Regional Service
+	- Can be set to one region, or all regions
+	- Global services log to us-east-1, for trails to pick these events up they must have global service logging enabled
+- CloudTrail is **not** real time logging, there is a delay
