@@ -1,0 +1,11 @@
+**S3 is private by default**
+	Account which created bucket has access by default. That's it.
+S3 Bucket Policy
+	Type of resource policy, similar to an identity policy but instead attached to a resource
+		Controlling who can access that resource
+		Allow or deny access for anyone, whether it be users within the account, or an entirely different account, can reference any identities
+		Allow or deny anonymous [[IAM Users#^59425d|principals]]
+	Contains a principal section in the policy that defines which principals are effected by the policy
+		A good way to automatically know the policy is a resource policy if it contains the principal section
+	Buckets can only have one policy
+Block public access setting will do just that
