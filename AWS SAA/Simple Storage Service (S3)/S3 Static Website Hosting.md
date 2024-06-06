@@ -1,0 +1,11 @@
+Allows access via HTTP
+Index.html and Error.html document must be set
+	Index is default landing page
+	Error is the default error display page
+When enabled, S3 enables a website endpoint
+	The website endpoint automatically generated and cannot be changed
+	You can *only* use a custom domain when the bucket name and domain have the same exact name
+Offloading
+	Storing large data into S3 as a static website
+Out-of-band pages
+	When a server or service goes down it can point to a static website displaying the down status
