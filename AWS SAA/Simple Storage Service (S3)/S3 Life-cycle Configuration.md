@@ -1,0 +1,14 @@
+- Automatically transition or expire objects
+- A set of rules
+	- Consists of actions
+	- Can apply to bucket or groups of objects
+- Transition Actions
+	- Change storage class, IE standard to standard IA
+		- S3 One Zone IA cannot transition to S3 Glacier Instant Retrieval, but can transition to flexible and deep archive
+			- Object must exist on a standard bucket for 30 days before transfer to IA or OneZone IA
+			- Applies when transferring from an IA to Glacier if the transition is defined in a single rule
+				- If you define Standard>IA in one rule, and IA>Glacier in another, you do not have to wait for the IA>Glacier 30 day minimum
+		- Generally you will take one step down at a time, but you can go down directly (IE Standard to Deep Archive)
+	- Transitions cannot go upward, only down
+- Expiration Actions
+	- Can delete objects, object groups, object versions
