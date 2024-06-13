@@ -1,0 +1,19 @@
+- Cannot be disabled once turned on, can be set as Bucket Default or on specified objects
+	- Versioning is automatically turned on with object lock and cannot be suspended
+- WORM
+	- Write once ready many
+		- Cannot delete or overwrite objects
+- Two styles
+	- Can be combined to overlap, IE a legal hold with a retention will be on legal hold for the specified amount of time
+	- Legal Hold
+		- Can be set to ON or OFF
+			- No deletes or changes when on
+			- s3:PutObjectLegalHold permissions is required to turn on or off legal hold
+	- Retention
+		- Specify retention period (Day & Years)
+			- Compliance mode
+				- Object version AND Retention period/settings cannot be deleted, changed or overwritten during the retention period by **ANYBODY (Including the ROOT user)**
+			- Governance Mode
+				- Same as compliance mode but lock settings **can** be adjusted by granting permissions
+					- s3:BypassGovernanceRetention
+					- x-amz-bypass-governance-retention:true

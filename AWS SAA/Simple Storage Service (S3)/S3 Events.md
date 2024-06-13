@@ -1,9 +1,9 @@
-Allows you to create event notification configuration on a bucket
-Notification generated when an event occurs in a bucket
-	Can be delivered to Lambda, SQS, or SNS to trigger operations
-Supports 
-	Object created
-	Object delete
-	Object restore
-	Replication
-EventBridge is an alternative and supports more types of events and more services
+- Allows you to create event notification configuration on a bucket
+- Notification generated when an event occurs in a bucket
+	- Can be delivered to Lambda, SQS, or SNS to trigger operations
+- Supports 
+	- Object created
+	- Object delete
+	- Object restore
+	- Replication
+- EventBridge is an alternative and supports more types of events and more services
