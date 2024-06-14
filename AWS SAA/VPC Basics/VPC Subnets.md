@@ -1,0 +1,17 @@
+- AZ Resilient
+- One subnet can never be in more than one AZ
+- One AZ can have 0 or more subnets
+- Subnet CIDR is a subset of the VPC CIDR
+	- Cannot overlap with other subnets
+- Optional IPv6 CIDR with a /64 subset of the /56 VPC CIDR
+- 5 Reserved IP addresses in *every* subnet (Using the example of 10.16.16.0/20)
+	- Network address is the very first IP range in the subnet, 10.16.16.0
+	- Network +1 is the VPC router 10.16.16.1
+	- Network +2 is the Reserved DNS 10.16.16.2
+	- Network +3 Reserved future use 10.16.16.3
+	- Broadcast address is the last IP in the subnet, 10.16.31.255
+- Every VPC has a DHCP Options set, flows through to subnet
+	- DHCP Option sets can be changed or swapped out, but cannot be directly edited once created
+- On every subnet
+	- Auto assign public IPv4 option
+	- Auto assign IPv6
