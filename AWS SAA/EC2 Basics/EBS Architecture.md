@@ -1,8 +1,8 @@
-Provides block storage
-	Can be encrypted with KMS
-Storage is created in one AZ
-Typically attached to one EC2 instance over a network
-	Can be detached and reattached
-	Persistent
-Billed based on GB/month
-Cannot communicate across AZs
+- Provides block storage
+	- Can be encrypted with KMS
+- Storage is created in one AZ
+- Typically attached to one EC2 instance over a network
+	- Can be detached and reattached
+	- Persistent
+- Billed based on GB/month
+- Cannot communicate across AZs
