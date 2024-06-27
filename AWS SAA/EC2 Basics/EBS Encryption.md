@@ -1,0 +1,10 @@
+- By default, no encryption
+- AWS Managed or Customer Managed key from KMS
+	- DEK is loaded into the EC2 host
+		- Use to encrypt data from EC2 into EBS
+			- Data on EC2 is plaintext, OS isn't aware of the encryption
+- Accounts can be set to encrypt EBS volumes by default
+	- KMS Keys are used to generate a DEK
+		- Each volumes uses it's own unique DEK (Unless created from a snapshot, in which it uses the same DEK)
+- You cannot turn encryption off on a volume
+- No cost or performance loss
