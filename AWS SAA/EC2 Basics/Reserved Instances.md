@@ -1,0 +1,17 @@
+- Standard Reserved
+	- Long-term consistent usage, runs constantly
+- Scheduled Reserve Instances
+	- Long-term usage which doesn't run constantly
+	- Schedule times used monthly, weekly, daily, for a certain amount of hours
+	- Doesn't support all instance types or region
+	- 1200 hours per year, 1 year minimum commitment
+- Capacity Reservations
+	- On-demand capacity reservations
+		- You pay on-demand price regardless if the capacity is being completely used
+- EC2 Savings Plan
+	- Hourly commitment for 1 or 3 year term
+	- General compute
+		- EC2, Fargate, Lambda
+			- On-demand rate and a savings plan rate
+	- You commit to using a certain dollar amount of usage. Once you go over this usage, you are charge at the normal on-demand rate. If you go under this usage, you still pay that amount.
+		- There is also an EC2 savings plan which only applies to EC2

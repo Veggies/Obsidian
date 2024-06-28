@@ -1,0 +1,37 @@
+- On-Demand
+	- Isolated but run on shared hardware
+	- No interruption
+	- Per second billing
+	- Use Case
+		- Short-term or unknown workloads
+		- Apps that can't be interrupted
+- Spot
+	- Unused used EC2 host capacity
+	- Up to 90% discount
+	- You set a max price. The spot price may be lower at the time of when you create the instances, but it can increase when capacity gets lower.
+		- If the price exceeds your set max price, your instances are terminated.
+	- Don't use for apps that cannot tolerate interruptions
+	- Use cases:
+		- Non-time critical
+		- Tolerate interruptions
+		- Cost sensitive
+
+- # Part 2
+
+- Reserved
+	- Locked to an AZ or Region
+		- Regional reservations don't reserve capacity within an AZ
+	- A reservation is telling amazon you will use resource for a certain amount of time
+		- Either 1 year or 3 year commitment
+			- Reduced per second fee, none up front
+				- Can also do partial up front with further reduced per second fee
+			- All up front, no per second fee
+- Dedicated Hosts
+	- Pay for host, no instance charge
+	- Use case
+		- Software licensed on sockets/cores
+- Dedicated Instances
+	- You don't own or share the host
+	- Extra charges for instances
+		- Hourly fee per region
+	- Run on dedicated hardware
