@@ -1,0 +1,8 @@
+- 169.254.169.254/latest/meta-data
+	- Instance metadata IP
+- Metadata has no authentication or encryption
+- Can provide all metadata about the EC2 instance within an EC2 instance by contacting the metadata service:
+	- Security groups
+	- Public IPv4
+	- Public Hostname
+	- etc.

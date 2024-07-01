@@ -1,0 +1,15 @@
+- Vertical scaling
+	- Increases hardware capacity of instance
+		- ex. Moving from t3.xlarge to t3.2xlarge
+		- Must be done during agreed downtimes
+		- Performance cap is instance size
+		- Scaling requires the system to reboot/migrate
+- Horizontal scaling
+	- Adds more instances
+		- Load balancer is used to balance traffic across the instances
+	- Off-host sessions
+		- Sessions are stored off the host in a database or somewhere else
+	- No disruption when scaling since the existing instances aren't being resized
+		- If shrinking, still no disruption because of off-host sessions
+	- No real limit since you can infinitely add instances
+	- Less expensive than vertical

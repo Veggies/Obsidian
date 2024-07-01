@@ -1,0 +1,24 @@
+- System Status Check
+	- Loss of power
+	- Loss of network connectivity
+	- Software/hardware issues
+	- Issues impacting EC2 service or EC2 host
+- Instance status checks
+	- Corrupt file system
+	- Incorrect networking setup
+	- OS Kernel issues
+
+- Auto Recovery
+	- Moves instance to new host
+- Status Check Alarm
+	- Cloudwatch Alarm for both status checks
+	- Can implement actions to take
+		- Recover, reboot, stop, or terminate
+			- Recover uses autorecovery
+			- Must be in same AZ
+				- Relies on spare EC2 host capacity
+				- Must use modern types of instances
+				- Must use EBS, instance store not supported
+
+- Termination Protection
+	- Requires disableApiTermination permission in order to terminate an instance when the setting is enabled on the instance
