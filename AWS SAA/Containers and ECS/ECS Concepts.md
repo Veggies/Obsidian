@@ -1,0 +1,15 @@
+- EC2 Mode
+- Fargate Mode
+
+- Container definition
+	- Tells ECS where the container is (What registry)
+	- Which port container uses
+	- Image and ports
+- Task Definition
+	- Task represents application
+	- May contain 1 or more containers
+	- Task role
+		- IAM role that a task can assume
+- Service Definition
+	- Define how many instances of a task is running
+	- Scaling tasks

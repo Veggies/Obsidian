@@ -1,0 +1,19 @@
+- EC2 Mode
+	- ECS Cluster created in VPC
+	- EC2 instances act as container hosts
+		- Meaning you manage the entire container instance
+			- Pricing, performance, etc.
+- Fargate Mode
+	- No servers to manage
+	- Shared infrastructure
+		- Only pay for containers you are using
+	- ECS tasks are injected into the VPC with an ENI
+
+- ECS
+	- If you use containers
+- EC2 Mode
+	- Large workload, price conscious
+- Fargate
+	- Large workload, overhead conscious
+	- Small/Burst workload
+	- Batch/Periodic workloads
