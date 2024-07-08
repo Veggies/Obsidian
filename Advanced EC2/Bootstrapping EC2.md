@@ -1,0 +1,12 @@
+- Bootstrapping allows a system to self-configure or perform self-configuration
+- Compared to an AMI where configuration is baked in or preconfigured, bootstrapping allows the system to perform it's own configuration on boot
+- Bootstrapping is enabled in EC2 by User Data
+	- 169.254.169.254/latest/user-data
+- Anything passed in through user data is executed by the instance OS
+	- **ONLY** at launch
+- OS needs to understand what is being passed in through user data
+- User data is limited to 16kb
+- User data can be modified while instance stopped
+- Optimal way to reduce boot-time-to-service-time
+	- Baked in Application Installation
+	- Bootstrapped application configuration
