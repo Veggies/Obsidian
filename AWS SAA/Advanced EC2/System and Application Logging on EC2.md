@@ -1,0 +1,4 @@
+- CloudWatch agent is required to capture data inside an EC2 instance
+	- Cloudwatch agent must be configured and have permissions to send data to cloudwatch
+	- Create an agent config to choose what data is sent or gathered from EC2 to cloudwatch
+	- IAM role with cloudwatch permissions attached to instance

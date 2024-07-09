@@ -1,0 +1,6 @@
+- Role that an EC2 instance can assume
+	- Anything within that EC2 instance has the same permissions as the role while assumed
+- Instance profile
+	- This is what is attached to the instance, not the role. Same permissions as the role.
+	- Role credentials are delivered via meta-data
+		- Credentials are always automatically renewed in meta-data
