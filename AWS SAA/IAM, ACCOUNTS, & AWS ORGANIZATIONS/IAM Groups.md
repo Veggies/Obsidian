@@ -1,9 +1,0 @@
-- IAM Groups are like folders that applies a set of permissions to all users in the group, it is not an identifiable resource
-	- An IAM User (Identity) can be in multiple groups.
-- Groups can have both Inline & Managed policies
-- No limit of users in a single group
-- No default/native 'all users' group
-- No nesting or, groups within groups
-- Groups cannot be logged in
-- 300 Groups per account (Soft)
-- Groups **cannot** be referenced as principal, they are not a true identity

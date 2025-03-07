@@ -1,5 +1,0 @@
-- Log of bucket and object access
-- Logs are stored in a target bucket
-	- Bucket ACL must allow "S3 Log Delivery Group" to receive logs
-		- Log files consist of Log Records
-- Source bucket must have logging enabled

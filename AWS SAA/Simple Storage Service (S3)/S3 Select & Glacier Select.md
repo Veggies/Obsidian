@@ -1,3 +1,0 @@
-- Retrieve parts of objects instead of entire objects
-- SQL-like expressions filters data inside S3 instead of inside the receiving/requesting app
-	- 400% faster and 80% cheaper because of the application having to receive ALL of the data then filtering, the data which already exists within S3 is being filtered at the source

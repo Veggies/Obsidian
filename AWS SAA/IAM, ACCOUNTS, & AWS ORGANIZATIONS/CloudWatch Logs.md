@@ -1,7 +1,0 @@
-- Public Service, located in Public Zone
-- Unified cloudwatch Agent is used for anything outside of AWS service can send logs into cloudwatch
-- Can generate metrics based on logs, known as a metric filter
-- Regional service
-- Log streams are log events from a single source
-	- Log streams can be grouped into a log group
-		- Log groups define retention & permission settings for the log streams, also define metric filters

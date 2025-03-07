@@ -1,6 +1,0 @@
-- IAM role that is linked to a specific AWS service
-- Predefined permissions by the service. These permissions grant this service the permissions needed to interact with other services.
-- Role might be created by service automatically, or by you during the service creation process
-	- Service linked-roles cannot be deleted until is no longer being used by the service
-- Pass role
-	- Allows a user to pass a role into a service when they are attempting to do something that they (the user) does not have permissions for. This temporarily assigns the user the role that can complete the service while the job is literally being completed, and then automatically unassigns them that role. The role is basically completing the task on behalf of the user.

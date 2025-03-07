@@ -1,9 +1,0 @@
-- cfn-init
-	- Helper script
-	- Desired state
-		- Can run commands based on the desired state
-			- Command instructions must be specified
-- Directives are retrieved from metadata and CFN resource
-- cfn-signal can communicate if the cfn-init was successful, or not
-	-  A timeout can be configured to wait for this signal. If no signal is acquired or received in this time, the instance errors.
-- CFN init can run it's commands/checks upon stack updates, versus userdata which is only ran at launch

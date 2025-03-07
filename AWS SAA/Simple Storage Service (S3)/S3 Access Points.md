@@ -1,6 +1,0 @@
-- Access points split a bucket up
-	- Each AP can have 
-		- it's own policy
-		- different network access controls
-		- it's own endpoint address
-	- APs are created via ==create-access-point== MEMORIZE

@@ -1,9 +1,0 @@
-- Block storage devices
-- Physically connected to one EC2 host
-	- Instances on host can access the store volumes
-- Highest storage/data performance in AWS
-- Attached at LAUNCH of instance
-	- NOT AFTER! AT LAUNCH ONLY!
-- When instances move between hosts (Moved, resized, or hardware failure) ephemeral volumes are lost and new blanks ones are created
-- Instance Store volumes are EPHEMERAL! TEMPORARY!
-- Included in instance price
