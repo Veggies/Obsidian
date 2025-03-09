@@ -1,3 +1,3 @@
 # Obsidian
 
-This is my obsidian git repo, I use it to transfer study notes between my 2012 Macbook running Ubuntu, and my Desktop computer.
+This is my obsidian git repo. Right now it's public but that may change.
