@@ -8,3 +8,6 @@ Make starting the habit a really small task.
 	Go to KodeKloud
 	Open youtube and go to Mischa's(?) channel
 	Make the habits seem small and easily accomplishable
+	I raise my desk
+	I sit in the recliner
+	etc.
