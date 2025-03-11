@@ -1,0 +1,44 @@
+- [ ] Garage Lights
+- [ ] Ethernet Throughout the house
+- [ ] Master bedroom
+	- [ ] Patch holes
+	- [ ] Redo trim
+	- [ ] Paint walls
+- [ ] Regular bath
+	- [ ] Paint walls
+	- [ ] Paint cabinets
+		- [ ] Install new hardware
+		- [ ] Reposition hinges so they all line up
+	- [ ] Paint trim
+- [ ] Water closet
+	- [ ] Walls need to be torn out and sheet rock re-hung
+		- [ ] Paint and texture probably not require since it's a "utility" room
+- [ ] Popcorn ceilings, scrape off DIY
+	- [ ] Master bedroom
+	- [ ] Master closet
+	- [ ] Bathroom
+	- [ ] Hallway
+	- [ ] Ruby's room
+	- [ ] Laundry room
+- [ ] Ceiling refinish
+	- [ ] Master bedroom
+	- [ ] Master closet
+	- [ ] Bathroom
+	- [ ] Hallway
+	- [ ] Ruby's room
+	- [ ] Laundry room
+	- [ ] Living room
+- [ ] Office
+	- [ ] Repair corner with failed joint
+- [ ] Painting Walls Cream
+	- [ ] Ruby's Room
+	- [ ] Master bedroom
+	- [ ] Bathroom
+	- [ ] Hallway
+	- [ ] Studio and Office
+	- [ ] Living Room
+	- [ ] Kitchen
+	- [ ] Laundry room
+	- [ ] Master closet
+- [ ] Paint Trim
+	- [ ] All rooms & bathrooms except Rocco's
