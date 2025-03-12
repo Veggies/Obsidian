@@ -42,3 +42,12 @@
 	- [ ] Master closet
 - [ ] Paint Trim
 	- [ ] All rooms & bathrooms except Rocco's
+- [ ] Outside
+	- [ ] Backyard
+		- [ ] Dethact
+		- [ ] Aerate
+		- [ ] Seed
+		- [ ] Tear down garden beds
+		- [ ] Put down weed fabric and river rock on perimeter
+	- [ ] Front / Side yard
+		- [ ] Hire someone to redo the weed fabric and rock/landscaping
