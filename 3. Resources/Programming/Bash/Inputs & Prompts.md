@@ -1,4 +1,4 @@
-```Bash
+```bash
 #to capture input from a command as a variable run the command with "substitution" syntax
 #example
 variable=$(echo "value")
