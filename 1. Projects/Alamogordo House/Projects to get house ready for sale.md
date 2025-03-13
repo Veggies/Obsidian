@@ -44,7 +44,7 @@
 	- [ ] All rooms & bathrooms except Rocco's
 - [ ] Outside
 	- [ ] Backyard
-		- [ ] Dethact
+		- [ ] Dethatch
 		- [ ] Aerate
 		- [ ] Seed
 		- [ ] Tear down garden beds
